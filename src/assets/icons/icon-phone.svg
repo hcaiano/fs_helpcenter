@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_call_48px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Help-Center" transform="translate(-996.000000, -1265.000000)" fill-rule="nonzero" fill="#00A4FF">
+            <g id="Group-4" transform="translate(160.000000, 1225.000000)">
+                <g id="ic_call_48px" transform="translate(836.000000, 40.000000)">
+                    <path d="M4.63194444,9.96027778 C6.47194444,13.5763889 9.43,16.5344444 13.0525,18.3744444 L15.8636111,15.5569444 C16.215,15.2055556 16.7197222,15.1033333 17.1605556,15.2438889 C18.5916667,15.7166667 20.1313889,15.9722222 21.7222222,15.9722222 C22.4313889,15.9722222 23,16.5408333 23,17.25 L23,21.7222222 C23,22.4313889 22.4313889,23 21.7222222,23 C9.72388889,23 0,13.2761111 0,1.27777778 C0,0.568611111 0.575,0 1.27777778,0 L5.75,0 C6.45916667,0 7.02777778,0.568611111 7.02777778,1.27777778 C7.02777778,2.86861111 7.28333333,4.40833333 7.75611111,5.83944444 C7.89666667,6.28027778 7.79444444,6.785 7.44305556,7.13638889 L4.63194444,9.96027778 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -2,6 +2,26 @@
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 
 //
+// Bootstrap Overrides
+//
+
+.btn {
+    border-radius: 500px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    padding: 12px 30px;
+}
+
+//
 // Color Classes
 //
 
@@ -104,6 +124,29 @@
     left: 0;
     top: 2rem;
     background-color: transparent !important;
+    z-index: 1;
+
+    .nav-link {
+        color: $white !important;
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    .nav-item {
+        opacity: 0.8;
+        font-size: 0.85rem;
+        font-weight: 300;
+        line-height: 2.9;
+
+        img {
+            border-radius: 100px;
+            height: 40px;
+            width: 40px;
+            line-height: 1;
+            display: inline-block;
+            margin-right: 0.4rem;
+        }
+    }
 
     .navbar-brand {
         span {
@@ -131,7 +174,7 @@
 
 .fs_search-header {
     background: url(../assets/backgrounds/search_bg.jpg) no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
     width: 100%;
     padding-top: 8rem;
     padding-bottom: $grid-gutter-width;
@@ -187,6 +230,7 @@
 
     img {
         margin-bottom: 45px;
+        height: 60px;
     }
 
     h2 {
@@ -228,4 +272,35 @@
     .fs_card {
         box-shadow: 0 10px 6px -6px rgba(103, 103, 103, 0.2);
     }
+}
+
+.fs_card-2 {
+    width: 100%;
+    border: 1px solid $gray-300;
+    box-shadow: 0 4px 17px 0 rgba(103, 103, 103, 0.06);
+    transition: all .5s ease;
+    text-align: center;
+    padding: 3rem;
+
+    img {
+        margin-bottom: 30px;
+        height: 20px;
+    }
+
+    h3 {
+        color: $black;
+        font-size: 1.1rem;
+    }
+
+    p {
+        color: $gray-500;
+        font-size: 0.8rem;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+.fs_get-in-touch {
+    padding: $grid-gutter-width;
 }

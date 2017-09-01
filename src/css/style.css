@@ -5552,6 +5552,19 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+.btn {
+  border-radius: 500px; }
+
+button {
+  cursor: pointer; }
+
+.btn-sm, .btn-group-sm > .btn {
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 12px 30px; }
+
 .color-blue {
   color: #00A2FF; }
 
@@ -5621,7 +5634,24 @@ a.text-dark:focus, a.text-dark:hover {
   right: 0;
   left: 0;
   top: 2rem;
-  background-color: transparent !important; }
+  background-color: transparent !important;
+  z-index: 1; }
+  .fs_navbar .nav-link {
+    color: #fff !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important; }
+  .fs_navbar .nav-item {
+    opacity: 0.8;
+    font-size: 0.85rem;
+    font-weight: 300;
+    line-height: 2.9; }
+    .fs_navbar .nav-item img {
+      border-radius: 100px;
+      height: 40px;
+      width: 40px;
+      line-height: 1;
+      display: inline-block;
+      margin-right: 0.4rem; }
   .fs_navbar .navbar-brand span {
     font-size: 1rem;
     color: #fff;
@@ -5638,7 +5668,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 .fs_search-header {
   background: url(../assets/backgrounds/search_bg.jpg) no-repeat center center;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
   padding-top: 8rem;
   padding-bottom: 45px;
@@ -5680,7 +5710,8 @@ a.text-dark:focus, a.text-dark:hover {
   padding: 3rem;
   margin-bottom: 45px; }
   .fs_card img {
-    margin-bottom: 45px; }
+    margin-bottom: 45px;
+    height: 60px; }
   .fs_card h2 {
     color: #1D2731;
     font-size: 1.23rem;
@@ -5708,3 +5739,26 @@ a.text-dark:focus, a.text-dark:hover {
     display: inline-block; }
   .fs_card-link:hover .fs_card {
     box-shadow: 0 10px 6px -6px rgba(103, 103, 103, 0.2); }
+
+.fs_card-2 {
+  width: 100%;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 4px 17px 0 rgba(103, 103, 103, 0.06);
+  transition: all .5s ease;
+  text-align: center;
+  padding: 3rem; }
+  .fs_card-2 img {
+    margin-bottom: 30px;
+    height: 20px; }
+  .fs_card-2 h3 {
+    color: #1D2731;
+    font-size: 1.1rem; }
+  .fs_card-2 p {
+    color: #adb5bd;
+    font-size: 0.8rem;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 25px; }
+
+.fs_get-in-touch {
+  padding: 45px; }
