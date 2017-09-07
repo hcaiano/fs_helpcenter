@@ -5711,7 +5711,8 @@ button {
   margin-bottom: 45px; }
   .fs_card img {
     margin-bottom: 45px;
-    height: 60px; }
+    max-height: 45px;
+    max-width: 45px; }
   .fs_card h2 {
     color: #1D2731;
     font-size: 1.23rem;
